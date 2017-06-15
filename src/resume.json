@@ -1,0 +1,117 @@
+{
+	"name": "Arnon Tawong",
+	"email": "nonthegenocide",
+	"emailURL": "nonthegenocide@gmail.com",
+	"phone": "+66 89-191-6415",
+    "tagline" : "Front-End Web Developer",
+	"image": "https://udemy-images.udemy.com/user/200_H/3064870_b6b7.jpg",
+	"website": "http://arnon-arm.com",
+	"twitter": "@genocide01",
+	"twitterURL": "https://twitter.com/genocide01",
+    "linkedin": "Bliztripper",
+    "linkedinURL": "https://www.linkedin.com/in/bliztripper/",
+    "github" : "BliztRipper",
+    "githubURL" : "https://github.com/BliztRipper",
+	"careerProfile": "I am interesting in Technology and Innovation.I like to learn something new. I love to study about international business and worldwide marketing .Technology make my adventure so exciting and easily more than i expected. There are such a lot to learn and i can’t stop improving myself. I have an experience with international business with foreign leader such as America, Korean, England, German and Australia.",
+	"experiences" : [
+		{
+			"title" : "Front-End Web Developer",
+			"period": "June 2016 - Present",
+			"company": "Travelanium",
+			"companyURL": "http://www.travelanium.com",
+			"details": "Design, Code and Developer website for 5 stars hotel all over Thailand By build from scratch with design from photoshop"
+		},
+		{
+			"title" : "Front-End Designer",
+			"period": "Auguts 2015 - Febuary 2016",
+			"company": "Bahtsmart",
+			"companyURL": "https://www.bahtsmart.com",
+			"details": "Design and Coding website with MeteorJS. Design wireframe and prototype of mobile app by sketchapp and marvelapp"
+		}
+	],
+	"certificate": [
+		{
+			"name":"Design Thinking For Leading and Learning",
+			"url": "https://courses.edx.org/certificates/66a1d24f51e849f281404ecd9caab92e",
+			"detail": "My first certificate from Massachusetts Institute of Technology. I do research about balance of design thinking for learning and design thinking for leading with design process from MIT Teaching System Lab."
+		},
+		{
+			"name":"Efficient Web Design Workflow",
+			"url": "https://www.linkedin.com/learning/efficient-web-design-workflow",
+			"detail": "Optimize the design phase of your workflow by examining the approach of another web designer in action to help boost the abilities of web designers and graphic designers, improving productivity and creativity."
+		},
+		{
+			"name":"Mapping the Modern Web Design Process",
+			"url": "https://www.linkedin.com/learning/mapping-the-modern-web-design-process",
+			"detail": "Understand the different players and phases and how they fit together in a web design approach focused on meaningful communication and a great user experience."
+		},
+		{
+			"name":"Certified Microsoft Innovative Educator",
+			"url": "https://education.microsoft.com/Learning-Plans/Generate-Certificate.aspx?certificateId=3&badgeId=1",
+			"detail": "Knowledge sharing to other people about web design and coding"
+		},
+		{
+			"name":"Web Securities Certificate",
+			"url": "https://www.cybrary.it/members/bliztreaper/?tab=profile",
+			"detail": "I also interest in web securities to make everything secure"
+		}
+	],
+	"skills": [
+		{
+			"name": "Bootstrap4",
+			"percent": "85%"
+		},
+		{
+			"name": "Javascript & jQuery",
+			"percent": "70%"
+		},
+		{
+			"name": "React",
+			"percent": "50%"
+		},
+		{
+			"name": "HTML5 & CSS",
+			"percent": "90%"
+		},
+		{
+			"name": "Wordpress",
+			"percent": "70%"
+		},
+		{
+			"name": "Sketch & Photoshop",
+			"percent": "85%"
+		}
+	],
+	"education": [
+		{
+			"degree": "BA in Modern Management and Information Technology",
+			"university": "Chiangmai University",
+			"period": "2008-2012"
+		}
+	],
+	"languages": [
+		{
+			"name":"Thai",
+			"details": "Native"
+		},
+		{
+			"name":"English",
+			"details": "Professional"
+		}
+	],
+	"interests": [
+		"Running",
+		"Shooting",
+		"Cycling",
+		"Cooking",
+		"Coding",
+        "Video games",
+        "DOTA"
+	]
+}
+
+
+
+
+
+
