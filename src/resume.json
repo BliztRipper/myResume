@@ -67,6 +67,10 @@
 		},
 		{
 			"name": "React",
+			"percent": "60%"
+		},
+		{
+			"name": "Angular",
 			"percent": "50%"
 		},
 		{

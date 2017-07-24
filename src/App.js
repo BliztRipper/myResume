@@ -64,10 +64,10 @@ class App extends Component {
                 <ul className="list-unstyled contact-list">
                     <li className="email"><i className="fa fa-envelope"></i><a href="mailto:{resume.emailURL}">{resume.email}</a></li>
                     <li className="phone"><i className="fa fa-phone"></i><a href="">{resume.phone}</a></li>
-                    <li className="website"><i className="fa fa-globe"></i><a href={resume.website} target="_blank">{resume.website}</a></li>
-                    <li className="linkedin"><i className="fa fa-linkedin"></i><a href={resume.linkedinURL} target="_blank">{resume.linkedin}</a></li>
-                    <li className="github"><i className="fa fa-github"></i><a href={resume.githubURL} target="_blank">{resume.github}</a></li>
-                    <li className="twitter"><i className="fa fa-twitter"></i><a href={resume.twitterURL} target="_blank">{resume.twitter}</a></li>
+                    <li className="website"><i className="fa fa-globe"></i><a href={resume.website} target="_blank" rel="noopener noreferrer">{resume.website}</a></li>
+                    <li className="linkedin"><i className="fa fa-linkedin"></i><a href={resume.linkedinURL} target="_blank" rel="noopener noreferrer">{resume.linkedin}</a></li>
+                    <li className="github"><i className="fa fa-github"></i><a href={resume.githubURL} target="_blank" rel="noopener noreferrer">{resume.github}</a></li>
+                    <li className="twitter"><i className="fa fa-twitter"></i><a href={resume.twitterURL} target="_blank" rel="noopener noreferrer">{resume.twitter}</a></li>
                 </ul>
             </div>
             <div className="education-container container-block">
