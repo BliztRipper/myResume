@@ -107,7 +107,7 @@ class App extends Component {
             </section>
             
             <section className="section projects-section">
-                <h2 className="section-title"><i className="fa fa-archive"></i>Certificate</h2>
+                <h2 className="section-title"><i className="fa fa-archive"></i>Certificate and Reference letter</h2>
                 <div className="intro">
                     <p>All certificate that i archive</p>
                 </div>

@@ -1,3 +1,4 @@
+
 {
 	"name": "Arnon Tawong",
 	"email": "nonthegenocide",
@@ -31,19 +32,29 @@
 	],
 	"certificate": [
 		{
+			"name":"The Finalist of Techjam 2017 by KBTG and Google",
+			"url": "https://www.linkedin.com/pulse/techjam-2017-arnon-tawong/",
+			"detail": "The competition collaborate with Google Developers and LINE Thailand for developers, designers, researchers to build and update trends in Software Development, Data Science and UX / UI Design"
+		},
+		{
 			"name":"Design Thinking For Leading and Learning",
 			"url": "https://courses.edx.org/certificates/66a1d24f51e849f281404ecd9caab92e",
 			"detail": "My first certificate from Massachusetts Institute of Technology. I do research about balance of design thinking for learning and design thinking for leading with design process from MIT Teaching System Lab."
 		},
 		{
 			"name":"Efficient Web Design Workflow",
-			"url": "https://www.linkedin.com/learning/efficient-web-design-workflow",
+			"url": "assets/images/CertificateOfCompletion_WebDesignEfficientWorkflow.pdf",
 			"detail": "Optimize the design phase of your workflow by examining the approach of another web designer in action to help boost the abilities of web designers and graphic designers, improving productivity and creativity."
 		},
 		{
 			"name":"Mapping the Modern Web Design Process",
-			"url": "https://www.linkedin.com/learning/mapping-the-modern-web-design-process",
+			"url": "assets/images/CertificateOfCompletion_MappingTheModernWebDesignProcess.pdf",
 			"detail": "Understand the different players and phases and how they fit together in a web design approach focused on meaningful communication and a great user experience."
+		},
+		{
+			"name":"Problem Solving For Web Professionals",
+			"url": "assets/images/CertificateOfCompletion_ProblemSolvingForWebProfessionals.pdf",
+			"detail": "Learn to turn your web browser into a code inspector, cope with browser incompatibilities, perform cross-platform testing and ensure the quality of your design and your code."
 		},
 		{
 			"name":"Certified Microsoft Innovative Educator",
@@ -54,6 +65,16 @@
 			"name":"Web Securities Certificate",
 			"url": "https://www.cybrary.it/members/bliztreaper/?tab=profile",
 			"detail": "I also interest in web securities to make everything secure"
+		},
+		{
+			"name":"Reference Letter from Research and International Study Center",
+			"url": "assets/images/Ref_Letter2.jpg",
+			"detail": "Letter of Recommendation from Dr. Napaporn Reeverakul, Assoc. Dean of Research and International Study Center"
+		},
+		{
+			"name":"Reference Letter from Knowledge and Innovation Center",
+			"url": "assets/images/Ref_Letter3.jpg",
+			"detail": "Letter of Recommendation from Dr. Pakinee Ariya, Vice Director of Knowledge and Innovation Center"
 		}
 	],
 	"skills": [
