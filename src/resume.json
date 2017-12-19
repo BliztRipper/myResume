@@ -47,7 +47,7 @@
 		},
 		{
 			"name":"Certified Microsoft Innovative Educator",
-			"url": "https://education.microsoft.com/Status/Public/Achievements?token=JXH1NVdo#",
+			"url": "assets/images/Certified Microsoft Innovative Educator.pdf",
 			"detail": "Knowledge sharing to other people about web design and coding"
 		},
 		{
@@ -91,6 +91,11 @@
 			"degree": "BA in Modern Management and Information Technology",
 			"university": "Chiangmai University",
 			"period": "2008-2012"
+		},
+		{
+			"degree": "AS in Design Thinking For Leading and Learning",
+			"university": "Massachusetts Institute of Technology",
+			"period": "2017"
 		}
 	],
 	"languages": [
