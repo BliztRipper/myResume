@@ -88,7 +88,7 @@
 		},
 		{
 			"name": "React",
-			"percent": "60%"
+			"percent": "65%"
 		},
 		{
 			"name": "Angular",
@@ -109,14 +109,14 @@
 	],
 	"education": [
 		{
-			"degree": "BA in Modern Management and Information Technology",
-			"university": "Chiangmai University",
-			"period": "2008-2012"
-		},
-		{
-			"degree": "AS in Design Thinking For Leading and Learning",
+			"degree": "Associate degree of Science in Design Thinking For Leading and Learning",
 			"university": "Massachusetts Institute of Technology",
 			"period": "2017"
+		},
+		{
+			"degree": "Bachelor of Arts in Modern Management and Information Technology",
+			"university": "Chiangmai University",
+			"period": "2008-2012"
 		}
 	],
 	"languages": [
