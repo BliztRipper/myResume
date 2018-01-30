@@ -122,6 +122,10 @@ class App extends Component {
                     {this.renderSkill()}
                 </div>  
             </section>
+
+            <section className="skills-section section">
+                <h2 className="section-title"><i className="fa fa-download"></i><a href="http://arnon-arm.com/assets/Resume-Arnon_Tawong-2018.zip" target="_blank" rel="noopener noreferrer">Download Full Resume CLICK!!</a></h2>
+            </section>
             
         </div>
     </div>
