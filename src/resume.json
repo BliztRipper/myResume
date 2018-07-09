@@ -16,8 +16,15 @@
 	"careerProfile": "I am interesting in Technology and Innovation.I like to learn something new. I love to study about web design and UX/UI .Technology make my adventure so exciting and easily more than i expected. There are such a lot to learn and i can’t stop improving myself. I have an experience with international business with foreign leader such as America, Korean, England, German and Australia.",
 	"experiences" : [
 		{
+			"title" : "Senior Web Producer",
+			"period": "March 2018 - Present",
+			"company": "Ascend Corp",
+			"companyURL": "http://www.ascendcorp.com/",
+			"details": "Design and Coding Prototype product and responsible in Truemoney Wallet Application, Build from scratch PWA and Website with React and Bootstrap"
+		},
+		{
 			"title" : "Front-End Web Developer",
-			"period": "June 2016 - Present",
+			"period": "June 2016 - Febuary 2018",
 			"company": "Travelanium",
 			"companyURL": "http://www.travelanium.com",
 			"details": "Design, Code and Developer website for 5 stars hotel all over Thailand By build from scratch with design from photoshop"
@@ -139,9 +146,3 @@
         "DOTA"
 	]
 }
-
-
-
-
-
-
