@@ -1,33 +1,35 @@
 import React, { Fragment } from "react";
+import summerDer from '../../../public/assets/images/portfolio/summer.jpg'
+import autumnDer from '../../../public/assets/images/portfolio/autumn.png'
 
 const PortfolioListContent = [
     {
-        image: 'image-1',
+        image: summerDer,
         category: 'Development',
         title: 'Getting tickets to the big show'
     },
     {
-        image: 'image-2',
+        image: autumnDer,
         category: 'Development',
         title: 'Getting tickets to the big show'
     },
     {
-        image: 'image-3',
+        image: summerDer,
         category: 'Development',
         title: 'Getting tickets to the big show'
     },
     {
-        image: 'image-4',
+        image: autumnDer,
         category: 'Website',
         title: 'Getting tickets to the big show'
     },
     {
-        image: 'image-3',
+        image: summerDer,
         category: 'Website',
         title: 'Getting tickets to the big show'
     },
     {
-        image: 'image-4',
+        image: autumnDer,
         category: 'Website',
         title: 'Getting tickets to the big show'
     }
@@ -41,8 +43,8 @@ const PortfolioList = ({column , styevariation}) => {
                 <div className={`${column}`} key={index}>
                     <div className={`portfolio ${styevariation}`}>
                         <div className="thumbnail-inner">
-                            <div className={`thumbnail ${value.image}`}></div>
-                            <div className={`bg-blr-image ${value.image}`}></div>
+                            <div className="thumbnail" style={{backgroundImage: "url("+value.image+")"}}></div>
+                            <div className="bg-blr-image" style={{backgroundImage: "url("+value.image+")"}}></div>
                         </div>
                         <div className="content">
                             <div className="inner">

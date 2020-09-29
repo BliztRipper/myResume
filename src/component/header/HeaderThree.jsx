@@ -2,6 +2,7 @@ import React from "react";
 import {FaFacebookF , FaLinkedinIn } from "react-icons/fa";
 import { FiX , FiMenu} from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
+import logoSymbolDark from '../../../public/assets/images/logo/logo-symbol-dark.png'
 
 const SocialShare = [
     {Social: <FaFacebookF /> , link: 'https://www.facebook.com/Genocide01'},
@@ -33,7 +34,7 @@ const HeaderThree = (props)=>{
     }else if(logo === 'dark'){
         logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
     }else if(logo === 'symbol-dark'){
-        logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Digital Agency" />;
+        logoUrl = <img src={logoSymbolDark} alt="BliztTech" />;
     }else if(logo === 'symbol-light'){
         logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
     }else{
