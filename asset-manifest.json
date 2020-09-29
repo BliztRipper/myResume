@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.d175a009.chunk.css",
-    "main.js": "/static/js/main.79ae7661.chunk.js",
-    "main.js.map": "/static/js/main.79ae7661.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.24e02d5e.chunk.css": "/static/css/2.24e02d5e.chunk.css",
-    "static/js/2.005e45be.chunk.js": "/static/js/2.005e45be.chunk.js",
-    "static/js/2.005e45be.chunk.js.map": "/static/js/2.005e45be.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.1699361ff33ea692aa11ae4b15c345a2.js": "/precache-manifest.1699361ff33ea692aa11ae4b15c345a2.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.24e02d5e.chunk.css.map": "/static/css/2.24e02d5e.chunk.css.map",
-    "static/css/main.d175a009.chunk.css.map": "/static/css/main.d175a009.chunk.css.map",
-    "static/media/index.scss": "/static/media/slick.f97e3bbf.svg"
+    "main.css": "/myResume/static/css/main.d175a009.chunk.css",
+    "main.js": "/myResume/static/js/main.93bfa1d6.chunk.js",
+    "main.js.map": "/myResume/static/js/main.93bfa1d6.chunk.js.map",
+    "runtime~main.js": "/myResume/static/js/runtime~main.4fcd64c1.js",
+    "runtime~main.js.map": "/myResume/static/js/runtime~main.4fcd64c1.js.map",
+    "static/css/2.ebe13ea2.chunk.css": "/myResume/static/css/2.ebe13ea2.chunk.css",
+    "static/js/2.005e45be.chunk.js": "/myResume/static/js/2.005e45be.chunk.js",
+    "static/js/2.005e45be.chunk.js.map": "/myResume/static/js/2.005e45be.chunk.js.map",
+    "index.html": "/myResume/index.html",
+    "precache-manifest.7d74db2b08455b6b27d02a5814de1885.js": "/myResume/precache-manifest.7d74db2b08455b6b27d02a5814de1885.js",
+    "service-worker.js": "/myResume/service-worker.js",
+    "static/css/2.ebe13ea2.chunk.css.map": "/myResume/static/css/2.ebe13ea2.chunk.css.map",
+    "static/css/main.d175a009.chunk.css.map": "/myResume/static/css/main.d175a009.chunk.css.map",
+    "static/media/index.scss": "/myResume/static/media/slick.f97e3bbf.svg"
   }
 }
