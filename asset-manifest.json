@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "https://bliztripper.github.io/myResume/static/css/main.d175a009.chunk.css",
-    "main.js": "https://bliztripper.github.io/myResume/static/js/main.18c77812.chunk.js",
-    "main.js.map": "https://bliztripper.github.io/myResume/static/js/main.18c77812.chunk.js.map",
-    "runtime~main.js": "https://bliztripper.github.io/myResume/static/js/runtime~main.071d9614.js",
-    "runtime~main.js.map": "https://bliztripper.github.io/myResume/static/js/runtime~main.071d9614.js.map",
-    "static/css/2.1e569c68.chunk.css": "https://bliztripper.github.io/myResume/static/css/2.1e569c68.chunk.css",
-    "static/js/2.ea086254.chunk.js": "https://bliztripper.github.io/myResume/static/js/2.ea086254.chunk.js",
-    "static/js/2.ea086254.chunk.js.map": "https://bliztripper.github.io/myResume/static/js/2.ea086254.chunk.js.map",
-    "index.html": "https://bliztripper.github.io/myResume/index.html",
-    "precache-manifest.d36a4384cf2c26cca66f1f301628023d.js": "https://bliztripper.github.io/myResume/precache-manifest.d36a4384cf2c26cca66f1f301628023d.js",
-    "service-worker.js": "https://bliztripper.github.io/myResume/service-worker.js",
-    "static/css/2.1e569c68.chunk.css.map": "https://bliztripper.github.io/myResume/static/css/2.1e569c68.chunk.css.map",
-    "static/css/main.d175a009.chunk.css.map": "https://bliztripper.github.io/myResume/static/css/main.d175a009.chunk.css.map",
-    "static/media/aboutme.png": "https://bliztripper.github.io/myResume/static/media/aboutme.b45a454f.png",
-    "static/media/index.scss": "https://bliztripper.github.io/myResume/static/media/slick.f97e3bbf.svg"
+    "main.css": "/myResume/static/css/main.d175a009.chunk.css",
+    "main.js": "/myResume/static/js/main.e91638a6.chunk.js",
+    "main.js.map": "/myResume/static/js/main.e91638a6.chunk.js.map",
+    "runtime~main.js": "/myResume/static/js/runtime~main.4fcd64c1.js",
+    "runtime~main.js.map": "/myResume/static/js/runtime~main.4fcd64c1.js.map",
+    "static/css/2.ebe13ea2.chunk.css": "/myResume/static/css/2.ebe13ea2.chunk.css",
+    "static/js/2.005e45be.chunk.js": "/myResume/static/js/2.005e45be.chunk.js",
+    "static/js/2.005e45be.chunk.js.map": "/myResume/static/js/2.005e45be.chunk.js.map",
+    "index.html": "/myResume/index.html",
+    "precache-manifest.c3c1ccb90fa5c4164786911043bbe360.js": "/myResume/precache-manifest.c3c1ccb90fa5c4164786911043bbe360.js",
+    "service-worker.js": "/myResume/service-worker.js",
+    "static/css/2.ebe13ea2.chunk.css.map": "/myResume/static/css/2.ebe13ea2.chunk.css.map",
+    "static/css/main.d175a009.chunk.css.map": "/myResume/static/css/main.d175a009.chunk.css.map",
+    "static/media/index.scss": "/myResume/static/media/slick.f97e3bbf.svg"
   }
 }
