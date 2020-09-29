@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.d175a009.chunk.css",
-    "main.js": "/static/js/main.fe40ca45.chunk.js",
-    "main.js.map": "/static/js/main.fe40ca45.chunk.js.map",
-    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
-    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
-    "static/css/2.24e02d5e.chunk.css": "/static/css/2.24e02d5e.chunk.css",
-    "static/js/2.ea086254.chunk.js": "/static/js/2.ea086254.chunk.js",
-    "static/js/2.ea086254.chunk.js.map": "/static/js/2.ea086254.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.4aa582f4fe529097cb8c3abefef703bd.js": "/precache-manifest.4aa582f4fe529097cb8c3abefef703bd.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.24e02d5e.chunk.css.map": "/static/css/2.24e02d5e.chunk.css.map",
-    "static/css/main.d175a009.chunk.css.map": "/static/css/main.d175a009.chunk.css.map",
-    "static/media/aboutme.png": "/static/media/aboutme.b45a454f.png",
-    "static/media/index.scss": "/static/media/slick.f97e3bbf.svg"
+    "main.css": "https://bliztripper.github.io/myResume/static/css/main.d175a009.chunk.css",
+    "main.js": "https://bliztripper.github.io/myResume/static/js/main.18c77812.chunk.js",
+    "main.js.map": "https://bliztripper.github.io/myResume/static/js/main.18c77812.chunk.js.map",
+    "runtime~main.js": "https://bliztripper.github.io/myResume/static/js/runtime~main.071d9614.js",
+    "runtime~main.js.map": "https://bliztripper.github.io/myResume/static/js/runtime~main.071d9614.js.map",
+    "static/css/2.1e569c68.chunk.css": "https://bliztripper.github.io/myResume/static/css/2.1e569c68.chunk.css",
+    "static/js/2.ea086254.chunk.js": "https://bliztripper.github.io/myResume/static/js/2.ea086254.chunk.js",
+    "static/js/2.ea086254.chunk.js.map": "https://bliztripper.github.io/myResume/static/js/2.ea086254.chunk.js.map",
+    "index.html": "https://bliztripper.github.io/myResume/index.html",
+    "precache-manifest.d36a4384cf2c26cca66f1f301628023d.js": "https://bliztripper.github.io/myResume/precache-manifest.d36a4384cf2c26cca66f1f301628023d.js",
+    "service-worker.js": "https://bliztripper.github.io/myResume/service-worker.js",
+    "static/css/2.1e569c68.chunk.css.map": "https://bliztripper.github.io/myResume/static/css/2.1e569c68.chunk.css.map",
+    "static/css/main.d175a009.chunk.css.map": "https://bliztripper.github.io/myResume/static/css/main.d175a009.chunk.css.map",
+    "static/media/aboutme.png": "https://bliztripper.github.io/myResume/static/media/aboutme.b45a454f.png",
+    "static/media/index.scss": "https://bliztripper.github.io/myResume/static/media/slick.f97e3bbf.svg"
   }
 }
