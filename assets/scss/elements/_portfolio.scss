@@ -4,18 +4,18 @@
 .portfolio {
     position: relative;
     @extend %transition;
-    min-height: 600px;
+    min-height: 400px;
     width: 100%;
     padding-top: 35%;
     
     @media #{$laptop-device} {
-        min-height: 500px;
+        min-height: 400px;
     }
     @media #{$lg-layout} {
-        min-height: 500px;
+        min-height: 400px;
     }
     @media #{$md-layout} {
-        min-height: 450px;
+        min-height: 400px;
     }
     @media #{$sm-layout} {
         min-height: 400px;
@@ -63,6 +63,8 @@
         backface-visibility: hidden;
         transition: transform .28s ease;
         z-index: 4;
+        background-size: contain;
+        background-repeat: no-repeat;
         // &.image-1{
         //     background-image: url(/assets/images/portfolio/portfolio-1.jpg);
         // }
