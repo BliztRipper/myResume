@@ -1,6 +1,4 @@
 import React, { Fragment } from "react";
-import summerDer from '../../../public/assets/images/portfolio/summer.jpg'
-import autumnDer from '../../../public/assets/images/portfolio/autumn.png'
 import royallakeside from '../../../public/assets/images/portfolio/royallakeside.png'
 import panankrabi from '../../../public/assets/images/portfolio/panankrabi.png'
 import ratilanna from '../../../public/assets/images/portfolio/ratilanna.png'
