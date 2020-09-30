@@ -24,7 +24,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'I have started my coding (HTML, CSS, JS) when I was 14 years old. And I also have experience with international business with a foreign leader such as America, Korean, England, German and Australia. I\'m involved in the technology industry over a decade and have been assigned to many roles like UX/UI designer, developer, engineer and tech speaker  ';
+        description = 'I have started my coding (HTML, CSS, JS) when I was 14 years old. And I also have experience with international business with a foreign leader such as American, Korean, British, German and Australian. I\'m involved in the technology industry over a decade and have been assigned to many roles like UX/UI designer, developer, engineer and tech speaker  ';
     return (
         <div className="active-dark">
             <Helmet pageTitle="BliztTech" pageDesc="BliztTech is the software house made by coffee and my 2 cats. We provide online solution for you and give your customer with great online experience"/>
