@@ -1,37 +1,49 @@
 import React, { Fragment } from "react";
 import summerDer from '../../../public/assets/images/portfolio/summer.jpg'
 import autumnDer from '../../../public/assets/images/portfolio/autumn.png'
+import royallakeside from '../../../public/assets/images/portfolio/royallakeside.png'
+import panankrabi from '../../../public/assets/images/portfolio/panankrabi.png'
+import ratilanna from '../../../public/assets/images/portfolio/ratilanna.png'
+import ramadaphuket from '../../../public/assets/images/portfolio/ramadaphuket.png'
+import brownstarling from '../../../public/assets/images/portfolio/brownstarling.png'
+import bangkokmidtown from '../../../public/assets/images/portfolio/bangkokmidtown.png'
 
 const PortfolioListContent = [
     {
-        image: summerDer,
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        image: royallakeside,
+        category: 'Luxury Golf Club',
+        title: 'Royal Lakeside Golf Club',
+        url:"https://www.royallakeside.com/"
     },
     {
-        image: autumnDer,
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        image: panankrabi,
+        category: '5 Star Hotel',
+        title: 'Panan Krabi Resort',
+        url:"https://www.panankrabiresort.com/accommodation.html"
     },
     {
-        image: summerDer,
-        category: 'Development',
-        title: 'Getting tickets to the big show'
+        image: ratilanna,
+        category: '5 Star Hotel',
+        title: 'Rati Lanna Chiang Mai',
+        url:"http://www.ratilannachiangmai.com/"
     },
     {
-        image: autumnDer,
-        category: 'Website',
-        title: 'Getting tickets to the big show'
+        image: ramadaphuket,
+        category: '5 Star Hotel',
+        title: 'Ramada Phuket Deevana',
+        url:"http://www.ramadaphuketdeevana.com/"
     },
     {
-        image: summerDer,
-        category: 'Website',
-        title: 'Getting tickets to the big show'
+        image: brownstarling,
+        category: '5 Star Hotel',
+        title: 'Brown Starling Resort Phuket',
+        url:"https://www.brownstarling.com/oxygen.html"
     },
     {
-        image: autumnDer,
-        category: 'Website',
-        title: 'Getting tickets to the big show'
+        image: bangkokmidtown,
+        category: '5 Star Hotel',
+        title: 'Bangkok Midtown Hotel',
+        url:"http://www.bangkokmidtownhotel.com/index.html"
     }
 ]
 
@@ -49,9 +61,9 @@ const PortfolioList = ({column , styevariation}) => {
                         <div className="content">
                             <div className="inner">
                                 <p>{value.category}</p>
-                                <h4><a href="/portfolio-details">{value.title}</a></h4>
+                                <h4><a target="_blank" rel="noopener noreferrer" href={value.url}>{value.title}</a></h4>
                                 <div className="portfolio-button">
-                                    <a className="rn-btn" href="/portfolio-details">View Details</a>
+                                    <a className="rn-btn" target="_blank" rel="noopener noreferrer" href={value.url} >View Details</a>
                                 </div>
                             </div>
                         </div>

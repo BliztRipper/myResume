@@ -1,5 +1,12 @@
 import React from "react";
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import certOne from '../../../public/assets/cert/xsiriesCert.png'
+import certTwo from '../../../public/assets/cert/MIT_Cert.png'
+import certThree from '../../../public/assets/cert/cmie.png'
+import certFour from '../../../public/assets/cert/Ref_Letter2.jpg'
+import certFive from '../../../public/assets/cert/mobileSiteCert.png'
+import certSix from '../../../public/assets/cert/TECHJAM2017-2018.png'
+import certSeven from '../../../public/assets/cert/facebookCert.png'
 
 const TabsTwo = ({tabStyle}) =>{
     let 
@@ -49,16 +56,16 @@ const TabsTwo = ({tabStyle}) =>{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <p>Mobile Sites Assessment Certification - Google</p> September 2019
+                                                   <a target="_blank" rel="noopener noreferrer" href={certFive}>Mobile Sites Assessment Certification<span> - Google</span></a> September 2019
                                                </li>
                                                <li>
-                                                   <p>Finalist of TechJam Tomorrow Squad - Kasikorn Business Technology Group</p> September 2018
+                                                   <a target="_blank" rel="noopener noreferrer" href={certSix}>Finalist of TechJam Tomorrow Squad<span> - Kasikorn Business Technology Group</span></a> September 2018
                                                </li>
                                                <li>
-                                                   <p>How to Drive Actions Online, in Stores, and in Mobile Apps - Facebook</p> March 2018
+                                                   <a target="_blank" rel="noopener noreferrer" href={certSeven}>How to Drive Actions Online, in Stores, and in Mobile Apps<span> - Facebook</span></a> March 2018
                                                </li>
                                                <li>
-                                                   <p>Finalist of TechJam Human-Centric AI - Kasikorn Business Technology Group</p> August 2017
+                                                   <a target="_blank" rel="noopener noreferrer" href={certSix}>Finalist of TechJam Human-Centric AI<span> - Kasikorn Business Technology Group</span></a> August 2017
                                                </li>
                                            </ul>
                                        </div>
@@ -89,16 +96,16 @@ const TabsTwo = ({tabStyle}) =>{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <p>X Series Program Certificate in Computational Thinking - Massachusetts Institute of Technology</p> 2020
+                                                   <a target="_blank" rel="noopener noreferrer" href={certOne}>X Series Program Certificate in Computational Thinking<span> - Massachusetts Institute of Technology</span></a> 2020
                                                </li>
                                                <li>
-                                                   <p>Professional Certificate in Design Thinking For Leading and Learning - Massachusetts Institute of Technology</p> 2017
+                                               <a target="_blank" rel="noopener noreferrer" href={certTwo}>Professional Certificate in Design Thinking For Leading and Learning<span> - Massachusetts Institute of Technology</span></a> 2017
                                                </li>
                                                <li>
-                                                   <p>Certified Microsoft Innovative Educator - Microsoft Education</p> 2017
+                                               <a target="_blank" rel="noopener noreferrer" href={certThree}>Certified Microsoft Innovative Educator<span> - Microsoft Education</span></a> 2017
                                                </li>
                                                <li>
-                                                   <p>B.A. Modern Management and Information Technology - Chiangmai University, Thailand</p> 2012
+                                                   <a target="_blank" rel="noopener noreferrer" href={certFour}>B.A. Modern Management and Information Technology<span> - Chiangmai University, Thailand</span></a> 2012
                                                </li>
                                            </ul>
                                        </div>

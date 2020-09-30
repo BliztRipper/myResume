@@ -10,6 +10,7 @@ const ContactThree = ({contactTitle, contactImages}) => {
                             <h2 className="title">{contactTitle}</h2>
                             <p className="description">I am available for freelance work. Connect with me via email:
                                 <a href="mailto:nonthegenocide@gmail.com"> nonthegenocide@gmail.com</a> </p>
+                                <p>For more projects, certificates and work details you can contact me directly via <a href="https://www.linkedin.com/in/bliztripper/">linkedIn</a></p>
                         </div>
                     </div>
                     <div className="col-lg-6 order-1 order-lg-2">
