@@ -77,7 +77,10 @@ const TabsTwo = ({tabStyle}) =>{
                                        <div className="single-tab-content">
                                            <ul>
                                                <li>
-                                                   <a href="https://lightnet.io/">Sr. Software Engineer<span> - Lightnet </span></a> August 2020 - Current
+                                                   <a href="https://fillgoods.co/">Lead Front-End Engineer<span> - Fillgoods Technology </span></a> July 2021 - Current
+                                               </li>
+                                               <li>
+                                                   <a href="https://lightnet.io/">Sr. Software Engineer<span> - Lightnet </span></a> August 2020 - July 2021
                                                </li>
                                                <li>
                                                    <a href="https://satang.com/">Sr. Front-end Engineer<span> - Satang </span></a> March 2020 - July 2020
