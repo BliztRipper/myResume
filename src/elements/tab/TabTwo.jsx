@@ -117,7 +117,7 @@ const TabsTwo = ({ tabStyle }) => {
 													Technicle Lead & Software Development Manager
 													<span> - Ascend Corp </span>
 												</a>{' '}
-												Hanuary 2022 - March 2024
+												January 2022 - March 2024
 											</li>
 											<li>
 												<a href="https://www.gofive.co.th/">

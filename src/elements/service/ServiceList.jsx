@@ -24,13 +24,13 @@ const Services = [
     },
     {
         icon: <FiServer />,
-        title: 'Cloud Technology Consultant',
+        title: 'Cloud Consultant',
         description: 'Assess Your Business to Increased Collaboration and Productivity Needs with Scalability and Flexibility.'
     },
     {
         icon: <FiUsers />,
         title: 'Tech Solution Consulting',
-        description: 'Identifying and Addressing Business Needs to Maximizing Technology Investments with Ensuring Alignment with Business Goals '
+        description: 'Identifying and Addressing Business Needs to Maximizing Technology Investments to Alignment with Business Goals '
     },
 ]
 
