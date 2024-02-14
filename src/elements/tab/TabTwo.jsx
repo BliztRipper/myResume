@@ -1,12 +1,13 @@
 import React from 'react'
-import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
-import certOne from '../../../public/assets/cert/xsiriesCert.png'
-import certTwo from '../../../public/assets/cert/MIT_Cert.png'
+import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
+
 import certThree from '../../../public/assets/cert/cmie.png'
-import certFour from '../../../public/assets/cert/Ref_Letter2.jpg'
-import certFive from '../../../public/assets/cert/mobileSiteCert.png'
-import certSix from '../../../public/assets/cert/TECHJAM2017-2018.png'
 import certSeven from '../../../public/assets/cert/facebookCert.png'
+import certTwo from '../../../public/assets/cert/MIT_Cert.png'
+import certFive from '../../../public/assets/cert/mobileSiteCert.png'
+import certFour from '../../../public/assets/cert/Ref_Letter2.jpg'
+import certSix from '../../../public/assets/cert/TECHJAM2017-2018.png'
+import certOne from '../../../public/assets/cert/xsiriesCert.png'
 
 const TabsTwo = ({ tabStyle }) => {
 	let tab1 = 'Main skills',
@@ -32,8 +33,12 @@ const TabsTwo = ({ tabStyle }) => {
 									<div className="single-tab-content">
 										<ul>
 											<li>
-												<p>User experience design - UX</p>
-												Delight the user and make it work with good experience.
+												<p>Solution Architect</p>
+												Certified by Amazon Web Service (AWS)
+											</li>
+											<li>
+												<p>Project Management</p>
+												Certified by Project Management Institute (PMI)
 											</li>
 											<li>
 												<p> ReactJS, ReactNative - Development</p>
@@ -46,11 +51,8 @@ const TabsTwo = ({ tabStyle }) => {
 												development
 											</li>
 											<li>
-												<p>
-													AntDesign, Tailwind, Styled Component and More - UI
-												</p>
-												Design your delighted interface from high-quality UI
-												library
+												<p>User experience design - UX</p>
+												Delight the user and make it work with good experience.
 											</li>
 										</ul>
 									</div>
@@ -111,11 +113,18 @@ const TabsTwo = ({ tabStyle }) => {
 									<div className="single-tab-content">
 										<ul>
 											<li>
-												<a href="https://fillgoods.co/">
+												<a href="https://www.ascendcorp.com/">
+													Technicle Lead & Software Development Manager
+													<span> - Ascend Corp </span>
+												</a>{' '}
+												Hanuary 2022 - March 2024
+											</li>
+											<li>
+												<a href="https://www.gofive.co.th/">
 													Lead Front-End Engineer
 													<span> - GoFive Technology </span>
 												</a>{' '}
-												October 2021 - Current
+												October 2021 - December 2021
 											</li>
 											<li>
 												<a href="https://fillgoods.co/">
@@ -155,6 +164,28 @@ const TabsTwo = ({ tabStyle }) => {
 								<TabPanel>
 									<div className="single-tab-content">
 										<ul>
+											<li>
+												<a
+													target="_blank"
+													rel="noopener noreferrer"
+													href="javascript:void(0)"
+												>
+													AWS Certified Cloud Practitioner
+													<span> - Amazon Web Service (AWS) (PMI)</span>
+												</a>{' '}
+												2024 [In Progress]
+											</li>
+											<li>
+												<a
+													target="_blank"
+													rel="noopener noreferrer"
+													href="javascript:void(0)"
+												>
+													Certified Associate in Project Management (CAPM)®
+													<span> - Project Management Institute (PMI)</span>
+												</a>{' '}
+												2024 [In Progress]
+											</li>
 											<li>
 												<a
 													target="_blank"

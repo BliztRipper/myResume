@@ -1,11 +1,12 @@
 import React from "react";
-import {FaFacebookF , FaLinkedinIn } from "react-icons/fa";
-import { FiX , FiMenu} from "react-icons/fi";
+import { FaLinkedinIn } from "react-icons/fa";
+import { FiMenu, FiX } from "react-icons/fi";
 import Scrollspy from 'react-scrollspy'
+
 import logoSymbolDark from '../../../public/assets/images/logo/blizttechLogo.png'
 
 const SocialShare = [
-    {Social: <FaFacebookF /> , link: 'https://www.facebook.com/Genocide01'},
+    // {Social: <FaFacebookF /> , link: 'https://www.facebook.com/Genocide01'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/bliztripper/'},
 ]
 const HeaderThree = (props)=>{

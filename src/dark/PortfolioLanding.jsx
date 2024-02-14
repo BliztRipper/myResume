@@ -1,17 +1,18 @@
 import React from 'react';
-import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
-import Helmet from "../component/common/Helmet";
+import ScrollToTop from 'react-scroll-up';
 import TextLoop from "react-text-loop";
-import HeaderThree from "../component/header/HeaderThree";
+
+import aboutMeImg from "../../public/assets/images/about/aboutme.png"
+import contactus from "../../public/assets/images/about/contactus.png"
+import bgHeader from "../../public/assets/images/bg/headerbg2.png"
+import Helmet from "../component/common/Helmet";
 import FooterTwo from "../component/footer/FooterTwo";
-import TabTwo from "../elements/tab/TabTwo";
+import HeaderThree from "../component/header/HeaderThree";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
-import aboutMeImg from "../../public/assets/images/about/aboutme.png"
-import bgHeader from "../../public/assets/images/bg/headerbg2.png"
-import contactus from "../../public/assets/images/about/contactus.png"
+import TabTwo from "../elements/tab/TabTwo";
 
 const SlideList = [
     {
@@ -24,7 +25,7 @@ const SlideList = [
 ]
 const PortfolioLanding = () => {
     let title = 'About Me',
-        description = 'I have started my coding (HTML, CSS, JS) when I was 14 years old. And I also have experience with international business with a foreign leader such as American, Korean, British, German and Australian. I\'m involved in the technology industry over a decade and have been assigned to many roles like UX/UI designer, developer, engineer and tech speaker  ';
+        description = 'I have started my coding (HTML, CSS, JS) when I was 13 years old. And I also have experience with international business with a foreign leader such as American, Korean, British, German and Australian. I\'m involved in the technology industry over a decade and have been assigned to many roles like Agile Coach, Software Engineer, Project Manager, and Tech Speaker  ';
     return (
         <div className="active-dark">
             <Helmet pageTitle="BliztTech" pageDesc="BliztTech is the software house made by coffee and my 2 cats. We provide online solution for you and give your customer with great online experience"/>

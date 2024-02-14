@@ -1,36 +1,36 @@
-import React, {Fragment} from "react";
-import { FiFeather , FiServer, FiTrello, FiFileText, FiUsers , FiMonitor } from "react-icons/fi";
+import React, { Fragment } from "react";
+import { FiFeather, FiFileText, FiMonitor, FiServer, FiTrello, FiUsers } from "react-icons/fi";
 
 const Services = [
     {
         icon: <FiFeather />,
         title: 'UX/UI Design',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'Experience our website with intuitive, seamless UX/UI design that\'s elegant, engaging, and user-centric.'
     },
     {
         icon: <FiTrello />,
         title: 'Website Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'Establishing an Online Presence Increasing Credibility and Trust Expanding Your Reach and Increasing Sales.'
     },
     { 
         icon: <FiMonitor />,
         title: 'Mobile App Development',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        description: 'Enhanced User Experience and Engagement for Business Growth and Competitive Advantage.'
     },
     {
         icon: <FiFileText />,
-        title: 'Marketing & Reporting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Project Management',
+        description: 'Ensures Project Success, Minimizes Risks and Delays and Improves Team Collaboration and Communication.'
     },
     {
         icon: <FiServer />,
-        title: 'Hosting and Domain',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Cloud Technology Consultant',
+        description: 'Assess Your Business to Increased Collaboration and Productivity Needs with Scalability and Flexibility.'
     },
     {
         icon: <FiUsers />,
-        title: 'Consulting',
-        description: 'I throw myself down among the tall grass by the stream as I lie close to the earth.'
+        title: 'Tech Solution Consulting',
+        description: 'Identifying and Addressing Business Needs to Maximizing Technology Investments with Ensuring Alignment with Business Goals '
     },
 ]
 
