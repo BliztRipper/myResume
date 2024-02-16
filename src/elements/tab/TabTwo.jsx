@@ -6,14 +6,16 @@ import certSeven from '../../../public/assets/cert/facebookCert.png'
 import certTwo from '../../../public/assets/cert/MIT_Cert.png'
 import certFive from '../../../public/assets/cert/mobileSiteCert.png'
 import certFour from '../../../public/assets/cert/Ref_Letter2.jpg'
+import certEight from '../../../public/assets/cert/scrumfun.png'
+import certNine from '../../../public/assets/cert/SixSigma.png'
 import certSix from '../../../public/assets/cert/TECHJAM2017-2018.png'
 import certOne from '../../../public/assets/cert/xsiriesCert.png'
 
 const TabsTwo = ({ tabStyle }) => {
 	let tab1 = 'Main skills',
-		tab2 = 'Awards',
+		tab2 = 'Awards & Certification',
 		tab3 = 'Experience',
-		tab4 = 'Education & Certification'
+		tab4 = 'Education'
 	return (
 		<div>
 			{/* Start Tabs Area */}
@@ -34,11 +36,11 @@ const TabsTwo = ({ tabStyle }) => {
 										<ul>
 											<li>
 												<p>Solution Architect</p>
-												Certified by Amazon Web Service (AWS)
+												Make your products and service Reliable, Scalable and Secure
 											</li>
 											<li>
 												<p>Project Management</p>
-												Certified by Project Management Institute (PMI)
+												Ensures everything on time, on Budget and prevent any risk
 											</li>
 											<li>
 												<p> ReactJS, ReactNative - Development</p>
@@ -61,6 +63,39 @@ const TabsTwo = ({ tabStyle }) => {
 								<TabPanel>
 									<div className="single-tab-content">
 										<ul>
+										{/* <li>
+												<a
+													target="_blank"
+													rel="noopener noreferrer"
+													href="javascript:void(0)"
+												>
+													AWS Certified Cloud Practitioner
+													<span> - Amazon Web Service (AWS) (PMI)</span>
+												</a>{' '}
+												2024 [In Progress]
+											</li> */}
+											<li>
+												<a
+													// target="_blank"
+													// rel="noopener noreferrer"
+													// href="javascript:void(0)"
+												>
+													Certified Agile Practitioner (PMI-ACP)®
+													<span> - Project Management Institute (PMI)</span>
+												</a>{' '}
+												2024 [In Progress]
+											</li>
+											<li>
+												<a
+													// target="_blank"
+													// rel="noopener noreferrer"
+													// href="javascript:void(0)"
+												>
+													Certified Associate in Project Management (CAPM)®
+													<span> - Project Management Institute (PMI)</span>
+												</a>{' '}
+												2024 [In Progress]
+											</li>
 											<li>
 												<a
 													target="_blank"
@@ -93,6 +128,27 @@ const TabsTwo = ({ tabStyle }) => {
 													Apps<span> - Facebook</span>
 												</a>{' '}
 												March 2018
+											</li>
+											<li>
+												<a
+													target="_blank"
+													rel="noopener noreferrer"
+													href={certNine}
+												>
+													Six Sigma Yellow Belt Professional <span> - 6sigmastudy </span>
+												</a>{' '}
+												January 2018
+											</li>
+											<li>
+												<a
+													target="_blank"
+													rel="noopener noreferrer"
+													href={certEight}
+												>
+													Certified Scrum Fundamentals
+													<span> - ScrumStudy</span>
+												</a>{' '}
+												September 2017
 											</li>
 											<li>
 												<a
@@ -164,28 +220,6 @@ const TabsTwo = ({ tabStyle }) => {
 								<TabPanel>
 									<div className="single-tab-content">
 										<ul>
-											<li>
-												<a
-													target="_blank"
-													rel="noopener noreferrer"
-													href="javascript:void(0)"
-												>
-													AWS Certified Cloud Practitioner
-													<span> - Amazon Web Service (AWS) (PMI)</span>
-												</a>{' '}
-												2024 [In Progress]
-											</li>
-											<li>
-												<a
-													target="_blank"
-													rel="noopener noreferrer"
-													href="javascript:void(0)"
-												>
-													Certified Associate in Project Management (CAPM)®
-													<span> - Project Management Institute (PMI)</span>
-												</a>{' '}
-												2024 [In Progress]
-											</li>
 											<li>
 												<a
 													target="_blank"
