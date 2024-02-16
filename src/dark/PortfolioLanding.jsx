@@ -44,10 +44,10 @@ const PortfolioLanding = () => {
                                             {value.category ? <span>{value.category}</span> : ''}
                                             <h1 className="title">Hi, I’m Arnon <br/>
                                             <TextLoop>
-                                                <span>Web Developer.</span>
-                                                <span>Mobile Developer.</span>
-                                                <span>Software Builder.</span>
+                                                <span>Software Developer.</span>
+                                                <span>Project Manager.</span>
                                                 <span>Tech Supervisor.</span>
+                                                <span>Architecture Consultant.</span>
                                                 <span>and Cat Person.</span>
                                             </TextLoop>{" "}
                                             </h1>
@@ -100,8 +100,8 @@ const PortfolioLanding = () => {
                         <div className="row">
                             <div className="col-lg-12">
                                 <div className="section-title text-center service-style--3 mb--30 mb_sm--0">
-                                    <h2 className="title">My Awesome Service</h2>
-                                    <p>There are many variations of service I can do for you</p>
+                                    <h2 className="title">My Awesome Skills</h2>
+                                    <p>There are many particular set of skills I can provide to you</p>
                                 </div>
                             </div>
                         </div>
