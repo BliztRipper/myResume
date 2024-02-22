@@ -1,6 +1,8 @@
 import React from 'react'
 import { Tab, TabList, TabPanel, Tabs } from 'react-tabs'
 
+import certAIPM from '../../../public/assets/cert/AIPM2024.png'
+import certCAPM from '../../../public/assets/cert/CAPM2024.png'
 import certThree from '../../../public/assets/cert/cmie.png'
 import certSeven from '../../../public/assets/cert/facebookCert.png'
 import certTwo from '../../../public/assets/cert/MIT_Cert.png'
@@ -87,14 +89,25 @@ const TabsTwo = ({ tabStyle }) => {
 											</li>
 											<li>
 												<a
-													// target="_blank"
-													// rel="noopener noreferrer"
-													// href="javascript:void(0)"
+													target="_blank"
+													rel="noopener noreferrer"
+													href={certAIPM}
+												>
+													Generative AI Overview for Project Managers
+													<span> - Project Management Institute (PMI)</span>
+												</a>{' '}
+												2024
+											</li>
+											<li>
+												<a
+													target="_blank"
+													rel="noopener noreferrer"
+													href={certCAPM}
 												>
 													Certified Associate in Project Management (CAPM)®
 													<span> - Project Management Institute (PMI)</span>
 												</a>{' '}
-												2024 [In Progress]
+												2024
 											</li>
 											<li>
 												<a

@@ -1,10 +1,11 @@
 import React from 'react';
 import { FaLinkedinIn } from "react-icons/fa";
+import { SiCredly } from "react-icons/si";
 
 import footLogo from "../../../public/assets/images/logo/blizttechLogo2.png"
 
 const SocialShare = [
-    // {Social: <FaFacebookF /> , link: 'https://www.facebook.com/Genocide01'},
+    {Social: <SiCredly /> , link: 'https://www.credly.com/users/arnon-tawong/badges'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/bliztripper/'},
 ]
 

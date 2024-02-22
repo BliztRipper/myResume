@@ -1,12 +1,13 @@
 import React from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiMenu, FiX } from "react-icons/fi";
+import { SiCredly } from "react-icons/si";
 import Scrollspy from 'react-scrollspy'
 
 import logoSymbolDark from '../../../public/assets/images/logo/blizttechLogo.png'
 
 const SocialShare = [
-    // {Social: <FaFacebookF /> , link: 'https://www.facebook.com/Genocide01'},
+    {Social: <SiCredly /> , link: 'https://www.credly.com/users/arnon-tawong/badges'},
     {Social: <FaLinkedinIn /> , link: 'https://www.linkedin.com/in/bliztripper/'},
 ]
 const HeaderThree = (props)=>{
