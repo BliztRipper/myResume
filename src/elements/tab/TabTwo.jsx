@@ -7,6 +7,7 @@ import certThree from '../../../public/assets/cert/cmie.png'
 import certSeven from '../../../public/assets/cert/facebookCert.png'
 import certTwo from '../../../public/assets/cert/MIT_Cert.png'
 import certFive from '../../../public/assets/cert/mobileSiteCert.png'
+import certACP from '../../../public/assets/cert/PMI_Certfication.png'
 import certFour from '../../../public/assets/cert/Ref_Letter2.jpg'
 import certEight from '../../../public/assets/cert/scrumfun.png'
 import certNine from '../../../public/assets/cert/SixSigma.png'
@@ -65,27 +66,16 @@ const TabsTwo = ({ tabStyle }) => {
 								<TabPanel>
 									<div className="single-tab-content">
 										<ul>
-										{/* <li>
+											<li>
 												<a
 													target="_blank"
 													rel="noopener noreferrer"
-													href="javascript:void(0)"
-												>
-													AWS Certified Cloud Practitioner
-													<span> - Amazon Web Service (AWS) (PMI)</span>
-												</a>{' '}
-												2024 [In Progress]
-											</li> */}
-											<li>
-												<a
-													// target="_blank"
-													// rel="noopener noreferrer"
-													// href="javascript:void(0)"
+													href={certACP}
 												>
 													Certified Agile Practitioner (PMI-ACP)®
 													<span> - Project Management Institute (PMI)</span>
 												</a>{' '}
-												2024 [In Progress]
+												2024
 											</li>
 											<li>
 												<a
