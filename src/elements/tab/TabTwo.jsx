@@ -1,7 +1,8 @@
 import React from "react"
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
 
-import certAIPM from "../../../public/assets/cert/AIPM2024.png"
+import certMSAF from "../../../public/assets/cert/certMSAF.pdf"
+import certCCP from "../../../public/assets/cert/certCCP.pdf"
 import certCAPM from "../../../public/assets/cert/CAPM2024.png"
 import certThree from "../../../public/assets/cert/cmie.png"
 import certSeven from "../../../public/assets/cert/facebookCert.png"
@@ -48,14 +49,14 @@ const TabsTwo = ({ tabStyle }) => {
                         risk
                       </li>
                       <li>
-                        <p>Product</p>
-                        Build your product from world top tier front-end
-                        framework
+                        <p>Agile Team Lead</p>
+                        Guiding cross-functional teams to deliver high-quality
+                        software solutions
                       </li>
                       <li>
                         <p>Organization Transformation</p>
-                        Make your website feels like an App with less time of
-                        development
+                        Driving comprehensive change initiatives to enhance
+                        business agility
                       </li>
                       <li>
                         <p>User experience design - UX</p>
@@ -72,10 +73,10 @@ const TabsTwo = ({ tabStyle }) => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          href={certACP}
+                          href={certMSAF}
                         >
-                          Certified Agile Practitioner (PMI-ACP)®
-                          <span> - Project Management Institute (PMI)</span>
+                          Microsoft Certified: Azure Fundamentals
+                          <span> - Microsoft</span>
                         </a>{" "}
                         2024
                       </li>
@@ -83,9 +84,20 @@ const TabsTwo = ({ tabStyle }) => {
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          href={certAIPM}
+                          href={certCCP}
                         >
-                          Generative AI Overview for Project Managers
+                          AWS Certified: Cloud Practitioner
+                          <span> - Amazon Web Service</span>
+                        </a>{" "}
+                        2024
+                      </li>
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={certACP}
+                        >
+                          Certified Agile Practitioner (PMI-ACP)®
                           <span> - Project Management Institute (PMI)</span>
                         </a>{" "}
                         2024
@@ -174,6 +186,13 @@ const TabsTwo = ({ tabStyle }) => {
                 <TabPanel>
                   <div className="single-tab-content">
                     <ul>
+                      <li>
+                        <a href="https://www.invitracehealth.com/">
+                          Technicle Product Manager
+                          <span> - InvitraceHealth </span>
+                        </a>{" "}
+                        April 2022 - Now
+                      </li>
                       <li>
                         <a href="https://www.ascendcorp.com/">
                           Technicle Lead & Software Development Manager
