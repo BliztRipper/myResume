@@ -4,18 +4,20 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
 import certGCDL from "../../../public/assets/cert/certCDL.pdf"
 import certGAC from "../../../public/assets/cert/GACertified.jpg"
 import certMSAF from "../../../public/assets/cert/certMSAF.pdf"
+import certMSAIF from "../../../public/assets/cert/certMSAF.pdf"
 import certCCP from "../../../public/assets/cert/certCCP.pdf"
+import certCAIP from "../../../public/assets/cert/certCCP.pdf"
 import certCAPM from "../../../public/assets/cert/CAPM2024.png"
 import certThree from "../../../public/assets/cert/cmie.png"
-import certSeven from "../../../public/assets/cert/facebookCert.png"
 import certTwo from "../../../public/assets/cert/MIT_Cert.png"
-import certFive from "../../../public/assets/cert/mobileSiteCert.png"
 import certACP from "../../../public/assets/cert/PMI_Certfication.png"
 import certFour from "../../../public/assets/cert/Ref_Letter2.jpg"
-import certEight from "../../../public/assets/cert/scrumfun.png"
-import certNine from "../../../public/assets/cert/SixSigma.png"
 import certSix from "../../../public/assets/cert/TECHJAM2017-2018.png"
 import certOne from "../../../public/assets/cert/xsiriesCert.png"
+// import certSeven from "../../../public/assets/cert/facebookCert.png"
+// import certFive from "../../../public/assets/cert/mobileSiteCert.png"
+// import certEight from "../../../public/assets/cert/scrumfun.png"
+// import certNine from "../../../public/assets/cert/SixSigma.png"
 
 const TabsTwo = ({ tabStyle }) => {
   let tab1 = "Main skills",
@@ -70,6 +72,28 @@ const TabsTwo = ({ tabStyle }) => {
                 <TabPanel>
                   <div className="single-tab-content">
                     <ul>
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={certCAIP}
+                        >
+                          AWS Certified: AI Practitioner
+                          <span> - Amazon Web Service</span>
+                        </a>{" "}
+                        September 2024
+                      </li>
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={certMSAIF}
+                        >
+                          Microsoft Certified: Azure AI Fundamentals
+                          <span> - Microsoft</span>
+                        </a>{" "}
+                        July 2024
+                      </li>
                       <li>
                         <a
                           target="_blank"
@@ -136,7 +160,7 @@ const TabsTwo = ({ tabStyle }) => {
                         </a>{" "}
                         Febuary 2024
                       </li>
-                      <li>
+                      {/* <li>
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -146,7 +170,7 @@ const TabsTwo = ({ tabStyle }) => {
                           <span> - Google</span>
                         </a>{" "}
                         September 2019
-                      </li>
+                      </li> */}
                       <li>
                         <a
                           target="_blank"
@@ -158,7 +182,7 @@ const TabsTwo = ({ tabStyle }) => {
                         </a>{" "}
                         September 2018
                       </li>
-                      <li>
+                      {/* <li>
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -168,8 +192,8 @@ const TabsTwo = ({ tabStyle }) => {
                           Apps<span> - Facebook</span>
                         </a>{" "}
                         March 2018
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -179,8 +203,8 @@ const TabsTwo = ({ tabStyle }) => {
                           <span> - 6sigmastudy </span>
                         </a>{" "}
                         January 2018
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -190,8 +214,8 @@ const TabsTwo = ({ tabStyle }) => {
                           <span> - ScrumStudy</span>
                         </a>{" "}
                         September 2017
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -201,7 +225,7 @@ const TabsTwo = ({ tabStyle }) => {
                           <span> - Kasikorn Business Technology Group</span>
                         </a>{" "}
                         August 2017
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </TabPanel>
