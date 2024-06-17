@@ -1,6 +1,8 @@
 import React from "react"
 import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
 
+import certGCDL from "../../../public/assets/cert/certCDL.pdf"
+import certGAC from "../../../public/assets/cert/GACertified.jpg"
 import certMSAF from "../../../public/assets/cert/certMSAF.pdf"
 import certCCP from "../../../public/assets/cert/certCCP.pdf"
 import certCAPM from "../../../public/assets/cert/CAPM2024.png"
@@ -65,10 +67,31 @@ const TabsTwo = ({ tabStyle }) => {
                     </ul>
                   </div>
                 </TabPanel>
-
                 <TabPanel>
                   <div className="single-tab-content">
                     <ul>
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={certGCDL}
+                        >
+                          Google Certified: Google Cloud Digital Leader
+                          <span> - Google</span>
+                        </a>{" "}
+                        June 2024
+                      </li>
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={certGAC}
+                        >
+                          Google Certified: Google Analytic Certified
+                          <span> - Google</span>
+                        </a>{" "}
+                        June 2024
+                      </li>
                       <li>
                         <a
                           target="_blank"
@@ -78,7 +101,7 @@ const TabsTwo = ({ tabStyle }) => {
                           Microsoft Certified: Azure Fundamentals
                           <span> - Microsoft</span>
                         </a>{" "}
-                        2024
+                        May 2024
                       </li>
                       <li>
                         <a
@@ -89,7 +112,7 @@ const TabsTwo = ({ tabStyle }) => {
                           AWS Certified: Cloud Practitioner
                           <span> - Amazon Web Service</span>
                         </a>{" "}
-                        2024
+                        May 2024
                       </li>
                       <li>
                         <a
@@ -100,7 +123,7 @@ const TabsTwo = ({ tabStyle }) => {
                           Certified Agile Practitioner (PMI-ACP)®
                           <span> - Project Management Institute (PMI)</span>
                         </a>{" "}
-                        2024
+                        March 2024
                       </li>
                       <li>
                         <a
@@ -111,7 +134,7 @@ const TabsTwo = ({ tabStyle }) => {
                           Certified Associate in Project Management (CAPM)®
                           <span> - Project Management Institute (PMI)</span>
                         </a>{" "}
-                        2024
+                        Febuary 2024
                       </li>
                       <li>
                         <a
