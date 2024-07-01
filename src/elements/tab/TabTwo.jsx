@@ -72,7 +72,7 @@ const TabsTwo = ({ tabStyle }) => {
                 <TabPanel>
                   <div className="single-tab-content">
                     <ul>
-                      <li>
+                      {/* <li>
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -82,8 +82,8 @@ const TabsTwo = ({ tabStyle }) => {
                           <span> - Amazon Web Service</span>
                         </a>{" "}
                         September 2024
-                      </li>
-                      <li>
+                      </li> */}
+                      {/* <li>
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -93,7 +93,7 @@ const TabsTwo = ({ tabStyle }) => {
                           <span> - Microsoft</span>
                         </a>{" "}
                         July 2024
-                      </li>
+                      </li> */}
                       <li>
                         <a
                           target="_blank"
