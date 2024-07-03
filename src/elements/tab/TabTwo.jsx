@@ -4,9 +4,9 @@ import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
 import certGCDL from "../../../public/assets/cert/certCDL.pdf"
 import certGAC from "../../../public/assets/cert/GACertified.jpg"
 import certMSAF from "../../../public/assets/cert/certMSAF.pdf"
-import certMSAIF from "../../../public/assets/cert/certMSAF.pdf"
+import certMSAIF from "../../../public/assets/cert/certMSAIF.pdf"
 import certCCP from "../../../public/assets/cert/certCCP.pdf"
-import certCAIP from "../../../public/assets/cert/certCCP.pdf"
+// import certCAIP from "../../../public/assets/cert/certCCP.pdf"
 import certCAPM from "../../../public/assets/cert/CAPM2024.png"
 import certThree from "../../../public/assets/cert/cmie.png"
 import certTwo from "../../../public/assets/cert/MIT_Cert.png"
@@ -83,7 +83,7 @@ const TabsTwo = ({ tabStyle }) => {
                         </a>{" "}
                         September 2024
                       </li> */}
-                      {/* <li>
+                      <li>
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
@@ -93,7 +93,7 @@ const TabsTwo = ({ tabStyle }) => {
                           <span> - Microsoft</span>
                         </a>{" "}
                         July 2024
-                      </li> */}
+                      </li>
                       <li>
                         <a
                           target="_blank"
