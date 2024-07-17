@@ -5,6 +5,7 @@ import certGCDL from "../../../public/assets/cert/certCDL.pdf"
 import certGAC from "../../../public/assets/cert/GACertified.jpg"
 import certMSAF from "../../../public/assets/cert/certMSAF.pdf"
 import certMSAIF from "../../../public/assets/cert/certMSAIF.pdf"
+import certMSSCIF from "../../../public/assets/cert/certMSSCIF.pdf"
 import certCCP from "../../../public/assets/cert/certCCP.pdf"
 // import certCAIP from "../../../public/assets/cert/certCCP.pdf"
 import certCAPM from "../../../public/assets/cert/CAPM2024.png"
@@ -83,6 +84,18 @@ const TabsTwo = ({ tabStyle }) => {
                         </a>{" "}
                         September 2024
                       </li> */}
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={certMSSCIF}
+                        >
+                          Microsoft Certified: Security, Compliance, and
+                          Identity Fundamentals
+                          <span> - Microsoft</span>
+                        </a>{" "}
+                        July 2024
+                      </li>
                       <li>
                         <a
                           target="_blank"
