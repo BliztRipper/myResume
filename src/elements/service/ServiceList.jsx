@@ -11,9 +11,9 @@ import {
 const Services = [
   {
     icon: <FiFeather />,
-    title: "UX/UI Design",
+    title: "UX Improvment",
     description:
-      "Experience our website with intuitive, seamless UX/UI design that's elegant, engaging, and user-centric.",
+      "Experience our website with intuitive, seamless UX that's elegant, engaging, and user-centric.",
   },
   {
     icon: <FiTrello />,
@@ -35,7 +35,7 @@ const Services = [
   },
   {
     icon: <FiServer />,
-    title: "Cloud Consultant",
+    title: "Cloud Technologist",
     description:
       "Assess Your Business to Increased Collaboration and Productivity Needs with Scalability and Flexibility.",
   },
