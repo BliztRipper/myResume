@@ -11,9 +11,9 @@ import {
 const Services = [
   {
     icon: <FiFeather />,
-    title: "UX Improvment",
+    title: "Design Thinking",
     description:
-      "Experience our website with intuitive, seamless UX that's elegant, engaging, and user-centric.",
+      "Transforms challenges into opportunities by Design Thinking. understanding users, prototyping ideas, and delivering impactful solutions.",
   },
   {
     icon: <FiTrello />,

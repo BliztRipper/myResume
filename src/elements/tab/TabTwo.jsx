@@ -7,7 +7,7 @@ import certMSAF from "../../../public/assets/cert/certMSAF.pdf"
 import certMSAIF from "../../../public/assets/cert/certMSAIF.pdf"
 import certMSSCIF from "../../../public/assets/cert/certMSSCIF.pdf"
 import certCCP from "../../../public/assets/cert/certCCP.pdf"
-// import certCAIP from "../../../public/assets/cert/certCCP.pdf"
+import certFCAC from "../../../public/assets/cert/FCAC.pdf"
 import certCAPM from "../../../public/assets/cert/CAPM2024.png"
 import certThree from "../../../public/assets/cert/cmie.png"
 import certTwo from "../../../public/assets/cert/MIT_Cert.png"
@@ -15,10 +15,8 @@ import certACP from "../../../public/assets/cert/PMI_Certfication.png"
 import certFour from "../../../public/assets/cert/Ref_Letter2.jpg"
 import certSix from "../../../public/assets/cert/TECHJAM2017-2018.png"
 import certOne from "../../../public/assets/cert/xsiriesCert.png"
-// import certSeven from "../../../public/assets/cert/facebookCert.png"
-// import certFive from "../../../public/assets/cert/mobileSiteCert.png"
-// import certEight from "../../../public/assets/cert/scrumfun.png"
-// import certNine from "../../../public/assets/cert/SixSigma.png"
+import certIBMDTP from "../../../public/assets/cert/IBMDTP.pdf"
+import DASSM from "../../../public/assets/cert/DASSM.pdf"
 
 const TabsTwo = ({ tabStyle }) => {
   let tab1 = "Main skills",
@@ -73,17 +71,51 @@ const TabsTwo = ({ tabStyle }) => {
                 <TabPanel>
                   <div className="single-tab-content">
                     <ul>
-                      {/* <li>
+                      <li>
                         <a
                           target="_blank"
                           rel="noopener noreferrer"
-                          href={certCAIP}
+                          href={certIBMDTP}
                         >
                           AWS Certified: AI Practitioner
                           <span> - Amazon Web Service</span>
                         </a>{" "}
-                        September 2024
-                      </li> */}
+                        August 2024
+                      </li>
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={DASSM}
+                        >
+                          Disciplined Agile Senior Scrum Master (DASSM)
+                          <span> - Project Management Institute (PMI)</span>
+                        </a>{" "}
+                        August 2024
+                      </li>
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={certIBMDTP}
+                        >
+                          IBM Certified Enterprise Design Thinking -
+                          Practitioner, Co-Creator and Team Essentials for AI
+                          <span> - IBM</span>
+                        </a>{" "}
+                        August 2024
+                      </li>
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={certFCAC}
+                        >
+                          Fortinet Certified Associate Cybersecurity
+                          <span> - Fortinet</span>
+                        </a>{" "}
+                        August 2024
+                      </li>
                       <li>
                         <a
                           target="_blank"
@@ -173,17 +205,6 @@ const TabsTwo = ({ tabStyle }) => {
                         </a>{" "}
                         Febuary 2024
                       </li>
-                      {/* <li>
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          href={certFive}
-                        >
-                          Mobile Sites Assessment Certification
-                          <span> - Google</span>
-                        </a>{" "}
-                        September 2019
-                      </li> */}
                       <li>
                         <a
                           target="_blank"
@@ -195,50 +216,6 @@ const TabsTwo = ({ tabStyle }) => {
                         </a>{" "}
                         September 2018
                       </li>
-                      {/* <li>
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          href={certSeven}
-                        >
-                          How to Drive Actions Online, in Stores, and in Mobile
-                          Apps<span> - Facebook</span>
-                        </a>{" "}
-                        March 2018
-                      </li> */}
-                      {/* <li>
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          href={certNine}
-                        >
-                          Six Sigma Yellow Belt Professional{" "}
-                          <span> - 6sigmastudy </span>
-                        </a>{" "}
-                        January 2018
-                      </li> */}
-                      {/* <li>
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          href={certEight}
-                        >
-                          Certified Scrum Fundamentals
-                          <span> - ScrumStudy</span>
-                        </a>{" "}
-                        September 2017
-                      </li> */}
-                      {/* <li>
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          href={certSix}
-                        >
-                          Finalist of TechJam Human-Centric AI
-                          <span> - Kasikorn Business Technology Group</span>
-                        </a>{" "}
-                        August 2017
-                      </li> */}
                     </ul>
                   </div>
                 </TabPanel>
