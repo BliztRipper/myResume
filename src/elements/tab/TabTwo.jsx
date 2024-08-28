@@ -17,6 +17,7 @@ import certSix from "../../../public/assets/cert/TECHJAM2017-2018.png"
 import certOne from "../../../public/assets/cert/xsiriesCert.png"
 import certIBMDTP from "../../../public/assets/cert/IBMDTP.pdf"
 import DASSM from "../../../public/assets/cert/DASSM.pdf"
+import AIF from "../../../public/assets/cert/AIF.pdf"
 
 const TabsTwo = ({ tabStyle }) => {
   let tab1 = "Main skills",
@@ -72,11 +73,7 @@ const TabsTwo = ({ tabStyle }) => {
                   <div className="single-tab-content">
                     <ul>
                       <li>
-                        <a
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          href={certIBMDTP}
-                        >
+                        <a target="_blank" rel="noopener noreferrer" href={AIF}>
                           AWS Certified: AI Practitioner
                           <span> - Amazon Web Service</span>
                         </a>{" "}
