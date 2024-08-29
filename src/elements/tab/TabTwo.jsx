@@ -225,7 +225,7 @@ const TabsTwo = ({ tabStyle }) => {
                           Senior Scrum Master Consultant
                           <span> - CAPCO </span>
                         </a>{" "}
-                        Srptember 2024 - Now
+                        September 2024 - Now
                       </li>
                       <li>
                         <a href="https://www.invitracehealth.com/">
