@@ -221,11 +221,18 @@ const TabsTwo = ({ tabStyle }) => {
                   <div className="single-tab-content">
                     <ul>
                       <li>
+                        <a href="https://www.capco.com/">
+                          Senior Scrum Master Consultant
+                          <span> - CAPCO </span>
+                        </a>{" "}
+                        Srptember 2024 - Now
+                      </li>
+                      <li>
                         <a href="https://www.invitracehealth.com/">
                           Technicle Product Manager
                           <span> - InvitraceHealth </span>
                         </a>{" "}
-                        April 2022 - Now
+                        April 2024 - August 2024
                       </li>
                       <li>
                         <a href="https://www.ascendcorp.com/">
