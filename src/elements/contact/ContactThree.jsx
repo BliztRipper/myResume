@@ -10,7 +10,7 @@ const ContactThree = ({ contactTitle, contactImages }) => {
               <h2 className="title">{contactTitle}</h2>
               <p className="description">
                 I am available for work. Connect with me via email:
-                <a href="mailto:arnontawong.prof@gmail.com">
+                <a  href="mailto:arnontawong.prof@gmail.com">
                   {" "}
                   arnontawong.prof@gmail.com
                 </a>{" "}
@@ -18,11 +18,11 @@ const ContactThree = ({ contactTitle, contactImages }) => {
               <p>
                 For more projects, certificates and work details you can contact
                 me directly via{" "}
-                <a href="https://www.linkedin.com/in/bliztripper/">linkedIn</a>
+                <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/bliztripper/">linkedIn</a>
               </p>
               <p>
                 or check my verified credential at{" "}
-                <a href="https://www.credly.com/users/arnon-tawong/badges">
+                <a target="_blank" rel="noopener noreferrer" href="https://www.credly.com/users/arnon-tawong/badges">
                   Credly
                 </a>
               </p>

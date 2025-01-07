@@ -26,7 +26,7 @@ const SlideList = [
 const PortfolioLanding = () => {
   let title = "About Me",
     description =
-      "I have started my coding (HTML, CSS, JS) when I was 13 years old. And I also have experience with international business with a foreign leader such as American, Korean, British, German and Australian. I'm involved in the technology industry over a decade and have been assigned to many roles like Agile Coach, Software Engineer, Project Manager, and Tech Speaker  "
+      "I have started my coding (HTML, CSS, JS) when I was 13 years old. And I am experienced in Agile methodology with a strong background in both technical and managerial roles. I'm involved in the technology industry over a decade and have been assigned to many roles like Agile Coach, Lead Software Engineer, Project Manager, and Tech Speaker"
   return (
     <div className="active-dark">
       <Helmet
@@ -58,8 +58,8 @@ const PortfolioLanding = () => {
                         <TextLoop>
                           <span>Software Developer.</span>
                           <span>Project Manager.</span>
-                          <span>Product Manager.</span>
-                          <span>Cloud Consultant.</span>
+                          <span>Value Stream Agile Coach.</span>
+                          <span>Cloud & AI Practitioner.</span>
                           <span>and Cat Person.</span>
                         </TextLoop>{" "}
                       </h1>

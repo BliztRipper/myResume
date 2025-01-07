@@ -18,6 +18,7 @@ import certOne from "../../../public/assets/cert/xsiriesCert.png"
 import certIBMDTP from "../../../public/assets/cert/IBMDTP.pdf"
 import DASSM from "../../../public/assets/cert/DASSM.pdf"
 import AIF from "../../../public/assets/cert/AIF.pdf"
+import PMO from "../../../public/assets/cert/PMO.pdf"
 
 const TabsTwo = ({ tabStyle }) => {
   let tab1 = "Main skills",
@@ -73,6 +74,13 @@ const TabsTwo = ({ tabStyle }) => {
                   <div className="single-tab-content">
                     <ul>
                       <li>
+                        <a target="_blank" rel="noopener noreferrer" href={PMO}>
+                          PMO Certified Practitioner (PMO-CP)®
+                          <span> - Project Management Institute (PMI)</span>
+                        </a>{" "}
+                        January 2025
+                      </li>
+                      <li>
                         <a target="_blank" rel="noopener noreferrer" href={AIF}>
                           AWS Certified: AI Practitioner
                           <span> - Amazon Web Service</span>
@@ -85,7 +93,7 @@ const TabsTwo = ({ tabStyle }) => {
                           rel="noopener noreferrer"
                           href={DASSM}
                         >
-                          Disciplined Agile Senior Scrum Master (DASSM)
+                          Disciplined Agile Senior Scrum Master (DASSM)®
                           <span> - Project Management Institute (PMI)</span>
                         </a>{" "}
                         August 2024
