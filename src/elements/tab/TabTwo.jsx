@@ -18,7 +18,10 @@ import certOne from "../../../public/assets/cert/xsiriesCert.png"
 import certIBMDTP from "../../../public/assets/cert/IBMDTP.pdf"
 import DASSM from "../../../public/assets/cert/DASSM.pdf"
 import AIF from "../../../public/assets/cert/AIF.pdf"
-import PMO from "../../../public/assets/cert/PMO.pdf"
+import PMOCP from "../../../public/assets/cert/PMO.pdf"
+import PMIPMOCP from "../../../public/assets/cert/PMIPMOCP.pdf"
+import DAVSC from "../../../public/assets/cert/DAVSC.pdf"
+import CAMHIL from "../../../public/assets/cert/CAMHIL.jpg"
 
 const TabsTwo = ({ tabStyle }) => {
   let tab1 = "Main skills",
@@ -44,9 +47,8 @@ const TabsTwo = ({ tabStyle }) => {
                   <div className="single-tab-content">
                     <ul>
                       <li>
-                        <p>Solution Architect</p>
-                        Make your products and service Reliable, Scalable and
-                        Secure
+                        <p>High Impact Leadership</p>
+                        Seeking to improve leadership abilities and drive change within your organizations
                       </li>
                       <li>
                         <p>Project Management</p>
@@ -54,9 +56,8 @@ const TabsTwo = ({ tabStyle }) => {
                         risk
                       </li>
                       <li>
-                        <p>Agile Team Lead</p>
-                        Guiding cross-functional teams to deliver high-quality
-                        software solutions
+                        <p>Disciplined Agile Consultant</p>
+                        Focuses on guiding enterprises through context-driven, pragmatic agile transformations
                       </li>
                       <li>
                         <p>Organization Transformation</p>
@@ -64,8 +65,8 @@ const TabsTwo = ({ tabStyle }) => {
                         business agility
                       </li>
                       <li>
-                        <p>User experience design - UX</p>
-                        Delight the user and make it work with good experience.
+                        <p>Software Development</p>
+                        Transform ideas into scalable, high-performance software solutions.
                       </li>
                     </ul>
                   </div>
@@ -74,7 +75,21 @@ const TabsTwo = ({ tabStyle }) => {
                   <div className="single-tab-content">
                     <ul>
                       <li>
-                        <a target="_blank" rel="noopener noreferrer" href={PMO}>
+                        <a target="_blank" rel="noopener noreferrer" href={DAVSC}>
+                          Disciplined Agile Value Stream Consultant (DAVSC)®
+                          <span> - Project Management Institute (PMI)</span>
+                        </a>{" "}
+                        Febuary 2025
+                      </li>
+                      <li>
+                        <a target="_blank" rel="noopener noreferrer" href={PMIPMOCP}>
+                          PMO Certified Professional (PMI-PMOCP)®
+                          <span> - Project Management Institute (PMI)</span>
+                        </a>{" "}
+                        Febuary 2025
+                      </li>
+                      <li>
+                        <a target="_blank" rel="noopener noreferrer" href={PMOCP}>
                           PMO Certified Practitioner (PMO-CP)®
                           <span> - Project Management Institute (PMI)</span>
                         </a>{" "}
@@ -294,6 +309,17 @@ const TabsTwo = ({ tabStyle }) => {
                 <TabPanel>
                   <div className="single-tab-content">
                     <ul>
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={CAMHIL}
+                        >
+                          Leading Sustainability: High Impact Leadership (Studying)
+                          <span> - University of Cambridge</span>
+                        </a>{" "}
+                        2025
+                      </li>
                       <li>
                         <a
                           target="_blank"
