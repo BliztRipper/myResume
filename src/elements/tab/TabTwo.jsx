@@ -1,33 +1,34 @@
-import React from "react"
-import { Tab, TabList, TabPanel, Tabs } from "react-tabs"
+import React from "react";
+import { Tab, TabList, TabPanel, Tabs } from "react-tabs";
 
-import certGCDL from "../../../public/assets/cert/certCDL.pdf"
-import certGAC from "../../../public/assets/cert/GACertified.jpg"
-import certMSAF from "../../../public/assets/cert/certMSAF.pdf"
-import certMSAIF from "../../../public/assets/cert/certMSAIF.pdf"
-import certMSSCIF from "../../../public/assets/cert/certMSSCIF.pdf"
-import certCCP from "../../../public/assets/cert/certCCP.pdf"
-import certFCAC from "../../../public/assets/cert/FCAC.pdf"
-import certCAPM from "../../../public/assets/cert/CAPM2024.png"
-import certThree from "../../../public/assets/cert/cmie.png"
-import certTwo from "../../../public/assets/cert/MIT_Cert.png"
-import certACP from "../../../public/assets/cert/PMI_Certfication.png"
-import certFour from "../../../public/assets/cert/Ref_Letter2.jpg"
-import certSix from "../../../public/assets/cert/TECHJAM2017-2018.png"
-import certOne from "../../../public/assets/cert/xsiriesCert.png"
-import certIBMDTP from "../../../public/assets/cert/IBMDTP.pdf"
-import DASSM from "../../../public/assets/cert/DASSM.pdf"
-import AIF from "../../../public/assets/cert/AIF.pdf"
-import PMOCP from "../../../public/assets/cert/PMO.pdf"
-import PMIPMOCP from "../../../public/assets/cert/PMIPMOCP.pdf"
-import DAVSC from "../../../public/assets/cert/DAVSC.pdf"
-import CAMHIL from "../../../public/assets/cert/CAMHIL.jpg"
+import certGCDL from "../../../public/assets/cert/certCDL.pdf";
+import certGAC from "../../../public/assets/cert/GACertified.jpg";
+import certMSAF from "../../../public/assets/cert/certMSAF.pdf";
+import certMSAIF from "../../../public/assets/cert/certMSAIF.pdf";
+import certMSSCIF from "../../../public/assets/cert/certMSSCIF.pdf";
+import certCCP from "../../../public/assets/cert/certCCP.pdf";
+import certFCAC from "../../../public/assets/cert/FCAC.pdf";
+import certCAPM from "../../../public/assets/cert/CAPM2024.png";
+import certThree from "../../../public/assets/cert/cmie.png";
+import certTwo from "../../../public/assets/cert/MIT_Cert.png";
+import certACP from "../../../public/assets/cert/PMI_Certfication.png";
+import certFour from "../../../public/assets/cert/Ref_Letter2.jpg";
+import certSix from "../../../public/assets/cert/TECHJAM2017-2018.png";
+import certOne from "../../../public/assets/cert/xsiriesCert.png";
+import certIBMDTP from "../../../public/assets/cert/IBMDTP.pdf";
+import DASSM from "../../../public/assets/cert/DASSM.pdf";
+import AIF from "../../../public/assets/cert/AIF.pdf";
+import PMOCP from "../../../public/assets/cert/PMO.pdf";
+import PMIPMOCP from "../../../public/assets/cert/PMIPMOCP.pdf";
+import DAVSC from "../../../public/assets/cert/DAVSC.pdf";
+import CAMHIL from "../../../public/assets/cert/CAM_HIL.png";
+import GACert from "../../../public/assets/cert/GACertified.pdf";
 
 const TabsTwo = ({ tabStyle }) => {
   let tab1 = "Main skills",
     tab2 = "Awards & Certification",
     tab3 = "Experience",
-    tab4 = "Education"
+    tab4 = "Education";
   return (
     <div>
       {/* Start Tabs Area */}
@@ -48,7 +49,8 @@ const TabsTwo = ({ tabStyle }) => {
                     <ul>
                       <li>
                         <p>High Impact Leadership</p>
-                        Seeking to improve leadership abilities and drive change within your organizations
+                        Seeking to improve leadership abilities and drive change
+                        within your organizations
                       </li>
                       <li>
                         <p>Project Management</p>
@@ -57,7 +59,8 @@ const TabsTwo = ({ tabStyle }) => {
                       </li>
                       <li>
                         <p>Disciplined Agile Consultant</p>
-                        Focuses on guiding enterprises through context-driven, pragmatic agile transformations
+                        Focuses on guiding enterprises through context-driven,
+                        pragmatic agile transformations
                       </li>
                       <li>
                         <p>Organization Transformation</p>
@@ -66,7 +69,8 @@ const TabsTwo = ({ tabStyle }) => {
                       </li>
                       <li>
                         <p>Software Development</p>
-                        Transform ideas into scalable, high-performance software solutions.
+                        Transform ideas into scalable, high-performance software
+                        solutions.
                       </li>
                     </ul>
                   </div>
@@ -75,21 +79,44 @@ const TabsTwo = ({ tabStyle }) => {
                   <div className="single-tab-content">
                     <ul>
                       <li>
-                        <a target="_blank" rel="noopener noreferrer" href={DAVSC}>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={GACert}
+                        >
+                          Google Certified: Generative AI Leader Certification
+                          <span> - Google</span>
+                        </a>{" "}
+                        July 2025
+                      </li>
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={DAVSC}
+                        >
                           Disciplined Agile Value Stream Consultant (DAVSC)®
                           <span> - Project Management Institute (PMI)</span>
                         </a>{" "}
                         Febuary 2025
                       </li>
                       <li>
-                        <a target="_blank" rel="noopener noreferrer" href={PMIPMOCP}>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={PMIPMOCP}
+                        >
                           PMO Certified Professional (PMI-PMOCP)®
                           <span> - Project Management Institute (PMI)</span>
                         </a>{" "}
                         Febuary 2025
                       </li>
                       <li>
-                        <a target="_blank" rel="noopener noreferrer" href={PMOCP}>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={PMOCP}
+                        >
                           PMO Certified Practitioner (PMO-CP)®
                           <span> - Project Management Institute (PMI)</span>
                         </a>{" "}
@@ -311,14 +338,30 @@ const TabsTwo = ({ tabStyle }) => {
                     <ul>
                       <li>
                         <a
+                          // target="_blank"
+                          rel="noopener noreferrer"
+                          href="javascript:void(0)"
+                        >
+                          M.Sc. Digital and AI Technologies in Health Systems
+                          <span>
+                            {" "}
+                            - Faculty of Medicine, Chulalongkorn University
+                            (Studying)
+                          </span>
+                        </a>{" "}
+                        2025
+                      </li>
+                      <li>
+                        <a
                           target="_blank"
                           rel="noopener noreferrer"
                           href={CAMHIL}
                         >
-                          Leading Sustainability: High Impact Leadership (Studying)
+                          Leading Sustainability: High Impact Leadership
                           <span> - University of Cambridge</span>
                         </a>{" "}
-                        2025
+                        (Grade: 80.2%)
+                        <br /> 2025
                       </li>
                       <li>
                         <a
@@ -375,7 +418,7 @@ const TabsTwo = ({ tabStyle }) => {
       </div>
       {/* End Tabs Area */}
     </div>
-  )
-}
+  );
+};
 
-export default TabsTwo
+export default TabsTwo;

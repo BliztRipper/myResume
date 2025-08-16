@@ -1,18 +1,18 @@
-import React from "react"
-import { FiChevronUp } from "react-icons/fi"
-import ScrollToTop from "react-scroll-up"
-import TextLoop from "react-text-loop"
+import React from "react";
+import { FiChevronUp } from "react-icons/fi";
+import ScrollToTop from "react-scroll-up";
+import TextLoop from "react-text-loop";
 
-import aboutMeImg from "../../public/assets/images/about/aboutme.png"
-import contactus from "../../public/assets/images/about/contactus.png"
-import bgHeader from "../../public/assets/images/bg/headerbg2.png"
-import Helmet from "../component/common/Helmet"
-import FooterTwo from "../component/footer/FooterTwo"
-import HeaderThree from "../component/header/HeaderThree"
-import ContactThree from "../elements/contact/ContactThree"
-import PortfolioList from "../elements/portfolio/PortfolioList"
-import ServiceList from "../elements/service/ServiceList"
-import TabTwo from "../elements/tab/TabTwo"
+import aboutMeImg from "../../public/assets/images/about/aboutme.png";
+import contactus from "../../public/assets/images/about/contactus.png";
+import bgHeader from "../../public/assets/images/bg/headerbg2.png";
+import Helmet from "../component/common/Helmet";
+import FooterTwo from "../component/footer/FooterTwo";
+import HeaderThree from "../component/header/HeaderThree";
+import ContactThree from "../elements/contact/ContactThree";
+import PortfolioList from "../elements/portfolio/PortfolioList";
+import ServiceList from "../elements/service/ServiceList";
+import TabTwo from "../elements/tab/TabTwo";
 
 const SlideList = [
   {
@@ -22,11 +22,11 @@ const SlideList = [
     buttonText: "",
     buttonLink: "",
   },
-]
+];
 const PortfolioLanding = () => {
   let title = "About Me",
     description =
-      "I have started my coding (HTML, CSS, JS) when I was 13 years old. And I am experienced in Agile methodology with a strong background in both technical and managerial roles. I'm involved in the technology industry over a decade and have been assigned to many roles like Agile Coach, Lead Software Engineer, Project Manager, and Tech Speaker"
+      "I have started my coding (HTML, CSS, JS) when I was 13 years old. And I am experienced in Agile methodology with a strong background in both technical and managerial roles. I'm involved in the technology industry over a decade and have been assigned to many roles like Agile Coach, AI Coach, Cloud Practitioner, Lead Software Engineer, Project Manager, and Tech Speaker";
   return (
     <div className="active-dark">
       <Helmet
@@ -193,7 +193,7 @@ const PortfolioLanding = () => {
       </div>
       {/* End Back To Top */}
     </div>
-  )
-}
+  );
+};
 
-export default PortfolioLanding
+export default PortfolioLanding;
