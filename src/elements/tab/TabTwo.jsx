@@ -23,6 +23,7 @@ import PMIPMOCP from "../../../public/assets/cert/PMIPMOCP.pdf";
 import DAVSC from "../../../public/assets/cert/DAVSC.pdf";
 import CAMHIL from "../../../public/assets/cert/CAM_HIL.png";
 import GACert from "../../../public/assets/cert/GACertified.pdf";
+import MLEA from "../../../public/assets/cert/MLEA.pdf";
 
 const TabsTwo = ({ tabStyle }) => {
   let tab1 = "Main skills",
@@ -78,6 +79,18 @@ const TabsTwo = ({ tabStyle }) => {
                 <TabPanel>
                   <div className="single-tab-content">
                     <ul>
+                      <li>
+                        <a
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          href={MLEA}
+                        >
+                          AWS Certified: Certified Machine Learning Engineer -
+                          Associate
+                          <span> - Amazon Web Service</span>
+                        </a>{" "}
+                        September 2025
+                      </li>
                       <li>
                         <a
                           target="_blank"
@@ -272,10 +285,11 @@ const TabsTwo = ({ tabStyle }) => {
                     <ul>
                       <li>
                         <a href="https://www.capco.com/">
-                          Senior Scrum Master Consultant
+                          Senior Consultant - AI Practitioner and Agile
+                          Practitioner
                           <span> - CAPCO </span>
                         </a>{" "}
-                        September 2024 - Now
+                        September 2024 - September 2025
                       </li>
                       <li>
                         <a href="https://www.invitracehealth.com/">
@@ -337,11 +351,7 @@ const TabsTwo = ({ tabStyle }) => {
                   <div className="single-tab-content">
                     <ul>
                       <li>
-                        <a
-                          // target="_blank"
-                          rel="noopener noreferrer"
-                          href="javascript:void(0)"
-                        >
+                        <a>
                           M.Sc. Digital and AI Technologies in Health Systems
                           <span>
                             {" "}
