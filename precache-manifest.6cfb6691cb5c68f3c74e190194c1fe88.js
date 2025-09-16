@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f8e80c8e7c82a696cc2d48352885da78",
+    "revision": "e2e81e5345395948e3d6dda310465dd7",
     "url": "/myResume/index.html"
   },
   {
-    "revision": "05186dd22c5f5de24bdc",
+    "revision": "fd11743e1369b449a362",
     "url": "/myResume/static/css/2.30b2df50.chunk.css"
   },
   {
-    "revision": "af47e580a84fce5d6eae",
+    "revision": "a551755fd4ff308146ba",
     "url": "/myResume/static/css/main.00b7423e.chunk.css"
   },
   {
-    "revision": "05186dd22c5f5de24bdc",
-    "url": "/myResume/static/js/2.f4576126.chunk.js"
+    "revision": "fd11743e1369b449a362",
+    "url": "/myResume/static/js/2.cdb7d045.chunk.js"
   },
   {
-    "revision": "af47e580a84fce5d6eae",
-    "url": "/myResume/static/js/main.1677761c.chunk.js"
+    "revision": "a551755fd4ff308146ba",
+    "url": "/myResume/static/js/main.ac3c9ea9.chunk.js"
   },
   {
     "revision": "7c6903d8f0ca3abfe94b",
@@ -62,6 +62,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "cc4b41d0e668b08969442cc5a94f3446",
     "url": "/myResume/static/media/MIT_Cert.cc4b41d0.png"
+  },
+  {
+    "revision": "032faadf35512f575e589b52632d4595",
+    "url": "/myResume/static/media/MLEA.032faadf.pdf"
   },
   {
     "revision": "7716e2daa13504cc3a38c03d6f6d66d8",
